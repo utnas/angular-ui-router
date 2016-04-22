@@ -1,0 +1,25 @@
+{
+  "name": "dsw-spike",
+  "version": "1.0.0",
+  "description": "DSW spike",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests"
+  },
+  "keywords": [
+    "Angular1.4.7",
+    "UI-Router"
+  ],
+  "author": "dooley",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^3.2.2",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "bower": "^1.7.9"
+  }
+}

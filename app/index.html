@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="styles/custom.scss"/>
+</head>
+
+<body ng-app="routerApp">
+
+<section class="header">
+    <nav class="navbar navbar-inverse" role="navigation">
+
+        <!-- Left side -->
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="home">AngularUI Router</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="about">About</a></li>
+        </ul>
+
+        <!-- Right side -->
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </nav>
+</section>
+
+<section class="main-content">
+    <div class="container">
+        <div ui-view></div>
+    </div>
+</section>
+
+<footer class="text-center">
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <p><a href="#">Conditions of usage</a></p>
+            <p><a href="#">Privacy policy</a></p>
+        </div>
+    </nav>
+</footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+<script src="js/router.js"></script>
+</html>

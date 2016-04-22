@@ -1,0 +1,36 @@
+{
+  "name": "UI-Router",
+  "description": "DSW ui-router spike",
+  "main": [
+    "app/js/motion.js",
+    "app/sass/motion.scss"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5"
+  },
+  "devDependencies": {
+    "qunit": "~1.16.0",
+    "angular": "^1.5.5"
+  },
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Angular",
+    "UI-Router"
+  ],
+  "authors": [
+    "Dooley"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
