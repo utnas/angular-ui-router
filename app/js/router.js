@@ -6,12 +6,12 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
     // ---- HOME ----
         .state('home', {
             url: '/home',
-            templateUrl: '../views/pages/home/home.html'
+            templateUrl: '../views/home/home.html'
         })
         // nested list with custom controller
         .state('home.first-nested-content', {
             url: '/first-nested-content',
-            templateUrl: '../views/pages/home/nested/first-nested-content.html',
+            templateUrl: '../views/home/nested/first-nested-content.html',
             controller: function ($scope) {
                 $scope.dogs = ['Bernese', 'Husky', 'Goldendoodle'];
             }
@@ -19,7 +19,7 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
         // nested list with just some random string data
         .state('home.other-content', {
             url: '/other-content',
-            templateUrl: '../views/pages/home/nested/other-content.html',
+            templateUrl: '../views/home/nested/other-content.html',
             controller: function ($scope) {
                 $scope.animals = ['Cat', 'Dog', 'Elephant'];
             }
@@ -27,11 +27,11 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
     // ---- ABOUT ----
         .state('about', {
             url: '/about',
-            templateUrl: '../views/pages/about.html'
+            templateUrl: '../views/about/about.html'
         })
     // ---- CONTRACT ----
         .state('contract', {
             url: '/contract',
-            templateUrl: '../views/pages/contract.html'
+            templateUrl: '../views/contract/contract.html'
         });
 });
