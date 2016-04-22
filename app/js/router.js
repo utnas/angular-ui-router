@@ -24,12 +24,12 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
                 $scope.animals = ['Cat', 'Dog', 'Elephant'];
             }
         })
-        // ---- ABOUT ----
+    // ---- ABOUT ----
         .state('about', {
             url: '/about',
             templateUrl: '../views/pages/about.html'
         })
-        // ---- CONTRACT ----
+    // ---- CONTRACT ----
         .state('contract', {
             url: '/contract',
             templateUrl: '../views/pages/contract.html'
